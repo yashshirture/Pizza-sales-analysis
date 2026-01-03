@@ -1,14 +1,14 @@
 # 🍕 Pizza Sales Analysis Dashboard
 
 ## 📌 Project Overview
-This project analyzes pizza sales data to uncover revenue trends, customer ordering behavior, and product performance using SQL and Excel-based dashboards.
+This project analyzes pizza sales data to uncover revenue trends, customer ordering behavior, and product performance using SQL and Excel-based dashboards
 
-## 📊 Key Insights
-- Total revenue, total orders, and total pizzas sold
-- Average order value and pizzas per order
-- Busiest days and peak ordering hours
-- Best-selling and worst-selling pizzas
-- Sales distribution by category and size
+## 🍕 Revenue Drivers & Sales Performance Patterns
+- Weekend evenings (Friday–Saturday) generate the highest order volume, highlighting peak demand windows
+- Classic and Chicken pizza categories contribute the largest share of total revenue and orders
+- Large-sized pizzas dominate sales, indicating customer preference for higher-value orders
+- Average order value remains stable, suggesting consistent pricing and purchasing behavior
+- A small set of top-selling pizzas accounts for a significant portion of total sales, showing strong product concentration
 
 ## 🛠 Tools Used
 - Microsoft Excel – Interactive dashboard & visual analysis
@@ -19,11 +19,12 @@ This project analyzes pizza sales data to uncover revenue trends, customer order
 ## 📷 Dashboard Preview
 ![Dashboard](dashboard.png)
 
-## 📈 Business Impact
-- Identifies peak demand periods for staffing and promotions
-- Highlights top revenue-generating products
-- Supports menu optimization and inventory planning
-- Enables data-driven sales strategy decisions
+## 📈 Commercial Impact & Optimization Opportunities
+- Enables data-driven staffing and inventory planning during peak demand periods
+- Identifies high-performing products for focused promotions and menu optimization
+- Supports pricing and bundle strategies by highlighting customer preference for large-size pizzas
+- Helps reduce revenue leakage by identifying low-performing menu items
+- Provides actionable insights to improve profitability and operational efficiency
 
 ## 👤 Author
 Yash Shirture  
