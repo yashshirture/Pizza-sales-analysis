@@ -1,31 +1,53 @@
-# 🍕 Pizza Sales Analysis Dashboard
+# 🍕 Pizza Sales Intelligence System (Excel)
 
-## 📌 Project Overview
-This project analyzes pizza sales data to uncover revenue trends, customer ordering behavior, and product performance using SQL and Excel-based dashboards
+## 🧩 Problem  
+Raw sales data contained inconsistent formats, missing values, and unstructured order records.  
+Using this data directly would produce misleading revenue trends and unreliable performance metrics.
 
-## 🍕 Revenue Drivers & Sales Performance Patterns
-- Weekend evenings (Friday–Saturday) generate the highest order volume, highlighting peak demand windows
-- Classic and Chicken pizza categories contribute the largest share of total revenue and orders
-- Large-sized pizzas dominate sales, indicating customer preference for higher-value orders
-- Average order value remains stable, suggesting consistent pricing and purchasing behavior
-- A small set of top-selling pizzas accounts for a significant portion of total sales, showing strong product concentration
+## 🎯 Objective  
+Transform messy transactional data into a clean, structured reporting layer that produces accurate, repeatable sales insights for business use.
 
-## 🛠 Tools Used
-- Microsoft Excel – Interactive dashboard & visual analysis
-- SQL – Data querying, aggregation, KPI computation
-- Data Cleaning & Transformation
-- Business Intelligence & Data Storytelling
+## 🚨 Data Issues Identified  
+- Inconsistent date and currency formats  
+- Missing values in key fields  
+- Unstructured order-level data  
+- Duplicate or partial records  
+- Totals not matching across sheets  
 
-## 📷 Dashboard Preview
-![Dashboard](dashboard.png)
+## 🛠️ Approach  
+1. Isolated raw data from working layers  
+2. Normalized formats (dates, currency, categories)  
+3. Cleaned and standardized product and order fields  
+4. Built structured Pivot-based reports  
+5. Created validation checks for totals and record counts  
+6. Designed repeatable summaries for daily and monthly use  
 
-## 📈 Commercial Impact & Optimization Opportunities
-- Enables data-driven staffing and inventory planning during peak demand periods
-- Identifies high-performing products for focused promotions and menu optimization
-- Supports pricing and bundle strategies by highlighting customer preference for large-size pizzas
-- Helps reduce revenue leakage by identifying low-performing menu items
-- Provides actionable insights to improve profitability and operational efficiency
+## 🛡️ Validation & Control Logic  
+- Row-count and completeness checks  
+- Revenue reconciliation across views  
+- Category consistency checks  
+- Formula-based guards for silent errors  
 
-## 👤 Author
-Yash Shirture  
-Data Analyst | Excel • SQL • Power BI
+Any mismatch triggers a review before results are used.
+
+## 📊 Output  
+- Clean transactional dataset  
+- Revenue and order trend summaries  
+- Performance views by product and category  
+- Business-ready Excel reports  
+
+## 💡 Why This Matters  
+Sales data changes every day.  
+A report that works once but breaks silently later is dangerous.
+
+This system is built to:  
+- Expect messy inputs  
+- Enforce structure  
+- Surface inconsistencies  
+- Deliver numbers that can be trusted  
+
+The goal is not charts.  
+The goal is **reliable business decisions**.
+
+## 🧰 Tools Used  
+- **MS Excel** – Data Cleaning, Standardization, Pivot Tables, Validation, Reporting  
